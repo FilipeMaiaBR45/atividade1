@@ -25,8 +25,6 @@ class AlterarDados : AppCompatActivity() {
 //        textoRecebido.text = texto
 
 
-
-
         binding.buttonAlterar.setOnClickListener {
             val intent = Intent()
             intent.putExtra("VALOR", binding.valorParaCalculo.text.toString())
